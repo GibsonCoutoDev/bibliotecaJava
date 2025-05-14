@@ -1,9 +1,20 @@
-import java.util.Scanner;
+
+package com.gibsoncoutodev.biblioteca;
+import com.GibsonCoutoDev.Livros;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
+import java.lang.reflect.Type;
+import java.util.Scanner;
 
 public class Main {
 
-    static ArrayList<livros> biblioteca = new ArrayList<>();
+    static ArrayList<Livros> biblioteca = new ArrayList<>();
+    static final String ARQUIVO_JSON = "livros.json";
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -47,16 +58,16 @@ public class Main {
     }
 
     public static void adicionarLivro(Scanner scanner) {
-        livros livro = new livros();
+        Livros livro = new Livros();
 
         System.out.print("Digite o nome do Livro: ");
-        livro.nome = scanner.nextLine();
+        livro.setNome(scanner.nextLine());
         System.out.print("Digite o nome do Autor: ");
-        livro.nomeAutor = scanner.nextLine();
+        livro.setNomeAutor(scanner.nextLine());
         System.out.print("Digite a descrição do Livro: ");
-        livro.descLivro = scanner.nextLine();
+        livro.setDescLivro(scanner.nextLine());
         System.out.print("Digite a categoria do Livro: ");
-        livro.catLivro = scanner.nextLine();
+        livro.setCatLivro(scanner.nextLine());
         biblioteca.add(livro);
     }
 
@@ -66,8 +77,8 @@ public class Main {
         scanner.nextLine();
         boolean livroRemovido = false;
 
-        for (livros livro : biblioteca) {
-            if (livro.id == id) {
+        for (Livros livro : biblioteca) {
+            if (livro.getId() == id) {
                 biblioteca.remove(livro);
                 livroRemovido = true;
                 System.out.println("O Livro foi removido.");
@@ -85,8 +96,8 @@ public class Main {
             System.out.println("Não há livros na biblioteca.");
         } else {
             System.out.println("Livros na biblioteca:");
-            for (livros livro : biblioteca) {
-                System.out.println("ID: " + livro.id + " | Nome: " + livro.nome + " | Autor: " + livro.nomeAutor);
+            for (Livros livro : biblioteca) {
+                livro.exibirInfos();
             }
         }
     }
