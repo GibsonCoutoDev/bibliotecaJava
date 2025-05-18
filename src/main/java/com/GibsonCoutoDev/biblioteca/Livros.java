@@ -1,4 +1,4 @@
-package com.GibsonCoutoDev;
+package com.GibsonCoutoDev.biblioteca;
 
 
 public class Livros {
@@ -56,4 +56,9 @@ public class Livros {
         System.out.println("Categoria do Livro: " + catLivro);
         System.out.println("ID do Livro: " + id);
     }
+
+    public static void setContadorId(int novoValor) {
+        Livros.contadorId = novoValor;
+    }
 }
+

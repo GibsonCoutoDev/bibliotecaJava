@@ -1,0 +1,212 @@
+[
+  {
+    "nome": "Dom Casmurro",
+    "nomeAutor": "Machado de Assis",
+    "descLivro": "Romance psicológico sobre ciúme e dúvida.",
+    "catLivro": "Clássico",
+    "id": 1
+  },
+  {
+    "nome": "1984",
+    "nomeAutor": "George Orwell",
+    "descLivro": "Distopia sobre vigilância e controle.",
+    "catLivro": "Ficção Científica",
+    "id": 2
+  },
+  {
+    "nome": "O Hobbit",
+    "nomeAutor": "J.R.R. Tolkien",
+    "descLivro": "Aventura fantástica de Bilbo Bolseiro.",
+    "catLivro": "Fantasia",
+    "id": 3
+  },
+  {
+    "nome": "Capitães da Areia",
+    "nomeAutor": "Jorge Amado",
+    "descLivro": "Jovens de rua em Salvador.",
+    "catLivro": "Romance Social",
+    "id": 4
+  },
+  {
+    "nome": "A Revolução dos Bichos",
+    "nomeAutor": "George Orwell",
+    "descLivro": "Fábula sobre poder e corrupção.",
+    "catLivro": "Sátira Política",
+    "id": 5
+  },
+  {
+    "nome": "Memórias Póstumas de Brás Cubas",
+    "nomeAutor": "Machado de Assis",
+    "descLivro": "Narrativa pós-morte de Brás Cubas.",
+    "catLivro": "Clássico",
+    "id": 6
+  },
+  {
+    "nome": "O Pequeno Príncipe",
+    "nomeAutor": "Antoine de Saint-Exupéry",
+    "descLivro": "Fábula filosófica sobre amor e amizade.",
+    "catLivro": "Infantil",
+    "id": 7
+  },
+  {
+    "nome": "Ensaio sobre a Cegueira",
+    "nomeAutor": "José Saramago",
+    "descLivro": "Cidade tomada por cegueira branca.",
+    "catLivro": "Romance",
+    "id": 8
+  },
+  {
+    "nome": "Grande Sertão: Veredas",
+    "nomeAutor": "João Guimarães Rosa",
+    "descLivro": "Jornada de Riobaldo no sertão.",
+    "catLivro": "Regionalista",
+    "id": 9
+  },
+  {
+    "nome": "A Metamorfose",
+    "nomeAutor": "Franz Kafka",
+    "descLivro": "Homem transforma-se em inseto.",
+    "catLivro": "Surrealismo",
+    "id": 10
+  },
+  {
+    "nome": "A Menina que Roubava Livros",
+    "nomeAutor": "Markus Zusak",
+    "descLivro": "A história de uma garota na Alemanha nazista.",
+    "catLivro": "Drama Histórico",
+    "id": 11
+  },
+  {
+    "nome": "O Código Da Vinci",
+    "nomeAutor": "Dan Brown",
+    "descLivro": "Mistério envolvendo obras de arte e símbolos.",
+    "catLivro": "Suspense",
+    "id": 12
+  },
+  {
+    "nome": "It: A Coisa",
+    "nomeAutor": "Stephen King",
+    "descLivro": "Entidade maligna assombra cidade americana.",
+    "catLivro": "Terror",
+    "id": 13
+  },
+  {
+    "nome": "A Culpa é das Estrelas",
+    "nomeAutor": "John Green",
+    "descLivro": "Romance entre dois adolescentes com câncer.",
+    "catLivro": "Romance Jovem",
+    "id": 14
+  },
+  {
+    "nome": "Harry Potter e a Pedra Filosofal",
+    "nomeAutor": "J.K. Rowling",
+    "descLivro": "Início da jornada de Harry no mundo mágico.",
+    "catLivro": "Fantasia",
+    "id": 15
+  },
+  {
+    "nome": "Senhor dos Anéis: A Sociedade do Anel",
+    "nomeAutor": "J.R.R. Tolkien",
+    "descLivro": "Começa a busca pela destruição do anel.",
+    "catLivro": "Fantasia Épica",
+    "id": 16
+  },
+  {
+    "nome": "O Alquimista",
+    "nomeAutor": "Paulo Coelho",
+    "descLivro": "Jovem busca por seu destino pessoal.",
+    "catLivro": "Autoajuda",
+    "id": 17
+  },
+  {
+    "nome": "O Nome do Vento",
+    "nomeAutor": "Patrick Rothfuss",
+    "descLivro": "Crônica da vida de um mago lendário.",
+    "catLivro": "Fantasia",
+    "id": 18
+  },
+  {
+    "nome": "O Apanhador no Campo de Centeio",
+    "nomeAutor": "J.D. Salinger",
+    "descLivro": "Jovem rebelde em Nova York.",
+    "catLivro": "Romance",
+    "id": 19
+  },
+  {
+    "nome": "Admirável Mundo Novo",
+    "nomeAutor": "Aldous Huxley",
+    "descLivro": "Sociedade controlada pela ciência.",
+    "catLivro": "Ficção Científica",
+    "id": 20
+  },
+  {
+    "nome": "O Morro dos Ventos Uivantes",
+    "nomeAutor": "Emily Brontë",
+    "descLivro": "Paixão obsessiva e vingança.",
+    "catLivro": "Romance Gótico",
+    "id": 21
+  },
+  {
+    "nome": "Orgulho e Preconceito",
+    "nomeAutor": "Jane Austen",
+    "descLivro": "Relações e status social na Inglaterra.",
+    "catLivro": "Romance de Época",
+    "id": 22
+  },
+  {
+    "nome": "Drácula",
+    "nomeAutor": "Bram Stoker",
+    "descLivro": "Clássico do vampirismo.",
+    "catLivro": "Terror",
+    "id": 23
+  },
+  {
+    "nome": "Frankenstein",
+    "nomeAutor": "Mary Shelley",
+    "descLivro": "Criatura rejeitada por seu criador.",
+    "catLivro": "Terror Científico",
+    "id": 24
+  },
+  {
+    "nome": "O Silmarillion",
+    "nomeAutor": "J.R.R. Tolkien",
+    "descLivro": "Mitologia de Arda e a criação do mundo.",
+    "catLivro": "Fantasia Épica",
+    "id": 25
+  },
+  {
+    "nome": "Percy Jackson e o Ladrão de Raios",
+    "nomeAutor": "Rick Riordan",
+    "descLivro": "Jovem descobre ser filho de Poseidon.",
+    "catLivro": "Fantasia Jovem",
+    "id": 26
+  },
+  {
+    "nome": "Jogos Vorazes",
+    "nomeAutor": "Suzanne Collins",
+    "descLivro": "Adolescentes lutam pela sobrevivência em reality mortal.",
+    "catLivro": "Distopia",
+    "id": 27
+  },
+  {
+    "nome": "Maze Runner: Correr ou Morrer",
+    "nomeAutor": "James Dashner",
+    "descLivro": "Jovens presos em labirinto mortal.",
+    "catLivro": "Ficção Jovem",
+    "id": 28
+  },
+  {
+    "nome": "Duna",
+    "nomeAutor": "Frank Herbert",
+    "descLivro": "Luta política e espiritual no deserto de Arrakis.",
+    "catLivro": "Ficção Científica",
+    "id": 29
+  },
+  {
+    "nome": "As Crônicas de Nárnia: O Leão, a Feiticeira e o Guarda-Roupa",
+    "nomeAutor": "C.S. Lewis",
+    "descLivro": "Quatro irmãos descobrem um mundo mágico.",
+    "catLivro": "Fantasia",
+    "id": 30
+  }
+]
